@@ -11,7 +11,7 @@ namespace Battleship.AI.Strategy
         /// <returns></returns>
         public static IBattleshipStrategy GetStrategy()
         {
-            return new NaiveBattleshipStrategy();
+            return new OurBattleshipStrategy();
         }
     }
 }
